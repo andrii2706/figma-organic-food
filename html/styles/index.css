@@ -4,6 +4,18 @@ body {
     font-family: Arial;
 }
 
+.w-60 {
+    width: 60px;
+}
+
+.w-278 {
+    width: 278px
+}
+
+.h-60 {
+    height: 60px;
+}
+
 .visibility {
     z-index: 10;
     position: absolute;
@@ -45,6 +57,10 @@ body {
 
 .mt-50 {
     margin-top: 50px;
+}
+
+.mr-24 {
+    margin-right: 24px;
 }
 
 .mb-10 {
@@ -269,7 +285,7 @@ header {
 .vector-background {
     position: relative;
     z-index: -1;
-    bottom: 450px;
+    bottom: 500px;
     left: 0px;
 }
 
@@ -281,18 +297,23 @@ header {
     margin-top: 140px;
     margin-left: 50px;
 }
-#work-img{
-    width:300px;
-    height:411px;
-    right: 150px;
+
+#work-img {
+    width: 300px;
+    height: 411px;
+    right: 14%;
     z-index: 1;
     position: absolute;
+    padding-top: 32px;
+    padding-right: 15px;
 }
-#icons-for-work{
+
+#icons-for-work {
     width: 420px;
     height: 420px;
 }
-.z-index{
+
+.z-index {
     z-index: 1;
 }
 
