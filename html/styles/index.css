@@ -1,11 +1,15 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial;
+    font-family: "Arial";
 }
 
 .w-60 {
     width: 60px;
+}
+
+.w-500 {
+    width: 500px;
 }
 
 .w-278 {
@@ -57,6 +61,14 @@ body {
 
 .mt-50 {
     margin-top: 50px;
+}
+
+.mt-60 {
+    padding-top: 60px;
+}
+
+.mb-60 {
+    padding-bottom: 60px;
 }
 
 .mr-24 {
@@ -202,6 +214,12 @@ header {
     padding: 12px;
 }
 
+.icon-template {
+    background: white;
+    border-radius: 50%;
+    padding: 12px;
+}
+
 .card-info {
     width: 75%;
     margin-left: 25px;
@@ -230,7 +248,7 @@ header {
 
     border-radius: 10px;
 
-    background: rgba(9, 166, 109);
+    background: rgba(9, 166, 109, 1);
     color: white;
 }
 
@@ -285,8 +303,8 @@ header {
 .vector-background {
     position: relative;
     z-index: -1;
-    bottom: 500px;
-    left: 0px;
+    bottom: 900px;
+    left: 0;
 }
 
 .header-and-description {
@@ -317,3 +335,7 @@ header {
     z-index: 1;
 }
 
+.some-template {
+    background: #F3FBF8;
+    padding: 10px;
+}
