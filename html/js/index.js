@@ -32,8 +32,8 @@ function onSubmit() {
     formHide.style.visibility = 'hidden';
 }
 
-function stopDefAction(evt) {
-    evt.preventDefault();
+function stopDefAction(e) {
+    e.preventDefault();
 }
 
 const form = document.querySelector("form");

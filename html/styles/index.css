@@ -55,8 +55,20 @@ body {
     height: 100%;
 }
 
+.p-10 {
+    padding: 10px;
+}
+
 .mr-10 {
     margin-right: 10px;
+}
+
+.mr-50 {
+    margin-right: 50px
+}
+
+.ml-50 {
+    margin-left: 50px;
 }
 
 .mt-50 {
@@ -301,10 +313,13 @@ header {
 }
 
 .vector-background {
+    width: 0px;
+    height: 0px;
     position: relative;
     z-index: -1;
     bottom: 900px;
     left: 0;
+    margin-bottom: 100px;
 }
 
 .header-and-description {
@@ -338,4 +353,77 @@ header {
 .some-template {
     background: #F3FBF8;
     padding: 10px;
+}
+
+#explore-our-special-items {
+    background: rgba(9, 166, 109, 0.05);
+    width: 100%;
+    height: 100%;
+}
+
+.block-with-v-and-f {
+    background: #09A66D;
+    width: 600px;
+    height: 600px;
+    margin: 25px;
+    z-index: 0;
+}
+
+.cucumber > img {
+    width: 250px;
+    height: 250px;
+    transform: rotate(30deg);
+    z-index: 0;
+}
+
+.apple > img {
+    width: 208px;
+    height: 208px;
+    transform: rotate(30deg);
+    z-index: 0;
+}
+
+.orange > img {
+    width: 200px;
+    height: 200px;
+    transform: rotate(30deg);
+    z-index: 0;
+}
+
+.cabedge > img {
+    width: 270px;
+    height: 270px;
+    transform: rotate(30deg);
+    z-index: 0;
+}
+
+.text-with-leafs {
+    z-index: 1;
+}
+
+footer {
+    background: #FCFEFD;
+}
+
+.description {
+    width: 345px;
+    height: 150px;
+}
+
+.p-100 {
+    padding: 100px;
+}
+.links > a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.links > a:hover{
+    color: silver;
+}
+.m-10{
+    margin: 10px;
 }
